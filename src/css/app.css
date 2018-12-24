@@ -1,1 +1,75 @@
 /* Your app styles here */
+
+body {
+    background: #171717;
+    position: relative;
+}
+
+.app_wrapper {
+    width: 430px;
+    height: 862px;
+    background: url("../images/device.png") center center no-repeat;
+    background-size: cover;
+    margin: 0 auto;
+    position: relative;
+}
+
+.app_screen {
+    width: 370px;
+    height: 777px;
+    margin: 0 auto;
+    background: transparent;
+    position: absolute;
+    top: 58px;
+    left: 30px;
+    border-radius: 0px 0px 40px 40px;
+}
+
+.ios .navbar:after,
+.ios .navbar,
+.ios .block-strong,
+.ios .block-strong:after,
+.ios .block-strong:before {
+    background: #171717;
+    color: #fff;
+}
+
+.ios .block-strong {
+    background-color: #1c1c1d;
+}
+
+.ios .toolbar {
+    border-radius: 0px 0px 40px 40px;
+    background-color: #1c1c1d;
+}
+
+.ios .page {
+    background: transparent;
+    border-radius: 0px 0px 40px 40px;
+}
+
+/*page css */
+
+.page_splash p {
+    margin: -10px 0px 0px 0px;
+    text-align: center;
+    color: #333;
+    font-size: 1em;
+}
+
+.page_splash > div {
+    height: 100px;
+    position: relative;
+}
+
+.page_splash img {
+    width: 200px;
+}
+
+.page_splash {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    background: url('../images/splash.jpg') center center no-repeat;
+}
